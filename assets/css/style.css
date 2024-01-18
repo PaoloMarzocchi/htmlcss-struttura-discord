@@ -1,59 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    ;
 }
 
-.site-header {
-    background-color: rgb(128, 178, 243);
-    height: 2rem;
-}
-
-.site-header .flex-container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2rem;
-    width: 60rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: auto;
-    flex-grow: 1;
-    /* margin-left: 15%;
-    margin-right: 15%; */
 }
-
-.header {
+.nav{
+    background-color: rgb(128, 178, 243);
+}
+.menu {
     background-color: rgb(228, 190, 93);
     border: 1px;
     border-style: dashed;
-    flex-grow: 1;
     padding: 2px;
+}
+
+.logo{
+    width: 10rem;
 }
 
 .login {
     text-align: end;
+    width: 10rem;
 }
 
 .links {
-    width: 35rem;
+    width: 40rem;
     text-align: center;
 }
 
-.site-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.first.container {  
     background-color: rgb(205, 238, 88);
-}
-
-.banner-container {  
-    height: 20rem;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .banner {
     background-color: rgb(252, 100, 80);
     width: 50rem;
     height: 17rem;
+}
+
+.scnd.container{
+    background-color: beige;
+}
+
+.blue{
+    background-color: blue;
+    width: 40rem;
+    height: 20rem;
+    border: 1px dashed black;
+}
+
+.pink{
+    background-color: pink;
+    width: 20rem;
+    height: 20rem;
+    border: 1px dashed black;
 }
