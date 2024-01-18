@@ -65,3 +65,7 @@ body {
     height: 20rem;
     border: 1px dashed black;
 }
+
+.thrd.container{
+    background-color: lightgray;
+}
