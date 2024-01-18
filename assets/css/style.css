@@ -1,34 +1,59 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     ;
 }
 
-.site-header{
-    background-color: aqua;
+.site-header {
+    background-color: rgb(128, 178, 243);
     height: 2rem;
 }
 
-.flex-container{
+.site-header .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 2rem;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60rem;
+    margin: auto;
+    flex-grow: 1;
+    /* margin-left: 15%;
+    margin-right: 15%; */
 }
 
-.header{
-    background-color: darkgoldenrod;
-    border: 1px ;
+.header {
+    background-color: rgb(228, 190, 93);
+    border: 1px;
     border-style: dashed;
     flex-grow: 1;
     padding: 2px;
 }
 
-.login{
+.login {
     text-align: end;
 }
 
-.links{
+.links {
+    width: 35rem;
     text-align: center;
+}
+
+.site-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(205, 238, 88);
+}
+
+.banner-container {  
+    height: 20rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: rgb(252, 100, 80);
+    width: 50rem;
+    height: 17rem;
 }
