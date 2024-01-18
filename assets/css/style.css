@@ -75,3 +75,27 @@ body {
     width: 60rem;
     height: 40rem;
 }
+
+.frst-foot-container{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+.dark-pink{
+    background-color: rgb(175, 71, 88);
+    width: 20rem;
+    height: 15rem;
+    border: 1px dashed black;
+}
+
+.light-blue{
+    background-color: lightblue;
+    width: 10rem;
+    height: 15rem;
+    border: 1px dashed white;
+}
