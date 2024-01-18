@@ -99,3 +99,28 @@ body {
     height: 15rem;
     border: 1px dashed white;
 }
+.last-foot-container{
+    background-color: rgb(31, 30, 30);
+    padding-top: 0.8rem;
+    margin: auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.button-container{
+    background-color: aqua;
+    width: 60rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: auto;
+}
+
+.button{
+    background-color: bisque;
+    padding: 0.3rem;
+    border: 1px dashed black;
+}
